@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>SHEventures</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    body {font-family: "Lato", "Tahoma"} 
+    .mySlides {display: none}
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-pink w3-card">
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT US</a>
+    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ENGAGEMENT</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- The Band Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+    <h2 class="w3-wide">SHEventures</h2>
+    <p class="w3-opacity"><i> Six Paths, One Passion</i></p>
+    <p class="w3-justify">Welcome to our page — where six bold, curious, and purpose-driven young women come together with one vision: to redefine the future of travel and tourism! We are second-year students taking up Bachelor of Science in Tourism Management at Iloilo Science and Technology University, and this isn’t just our course — it’s our passion, our playground, and our purpose. This website is your front-row pass to who we are, what we dream of, and how we’re making it happen. From event planning and tourism campaigns to cultural showcases and community engagement, we’re not just learning tourism — we’re living it. Join us as we create, collaborate, and celebrate the art of meaningful travel. Together, we’re not just exploring the world — we’re preparing to lead it.
+    </p>
+  </div>
+   <div class="w3-row w3-padding-32">
+    <div class="w3-third">
+        <p>Arsenal, Janelle B.</p>
+      <img src="/w3images/bandmember.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+    </div>
+    <div class="w3-third">
+      <p>Infante, Kate V.</p>
+      <img src="/w3images/bandmember.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+    </div>
+    <div class="w3-third">
+      <p>Lego, Erika Faith L.</p>
+      <img src="/w3images/bandmember.jpg" class="w3-round" alt="Random Name" style="width:60%">
+    </div>
+
+    <div class="w3-third">
+      <p>Ordinal, Laica Janelle J.</p>
+      <img src="/w3images/bandmember.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+    </div>
+    <div class="w3-third">
+      <p>Silve, Fiona Mae P.</p>
+      <img src="/w3images/bandmember.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+    </div>
+    <div class="w3-third">
+      <p>Somosera, Cindy M.</p>
+      <img src="/w3images/bandmember.jpg" class="w3-round" alt="Random Name" style="width:60%">
+    </div>
+  </div>
+</div>
+
+  <!-- Engagement Section -->
+  <div class="w3-pink" id="tour">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:1100px">
+      <h2 class="w3-wide w3-center">ENGAGEMENT</h2>
+      <p class="w3-opacity w3-center"><i>Get to know us!</i></p><br>
+      <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+
+        <!-- Loop for each member -->
+        <!-- Arsenal -->
+        <div class="w3-third w3-margin-bottom">
+          <img src="/w3images/newyork.jpg" alt="Janelle" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Arsenal, Janelle B.</b></p>
+            <p class="w3-opacity">Nene</p>
+            <p>"Stay wild, stay curious"</p>
+            <button onclick="document.getElementById('modalJanelle').style.display='block'" class="w3-button w3-light-grey w3-margin-bottom">More</button>
+          </div>
+        </div>
+
+        <!-- Infante -->
+        <div class="w3-third w3-margin-bottom">
+          <img src="/w3images/paris.jpg" alt="Kate" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Infante, Kate V.</b></p>
+            <p class="w3-opacity">Miray</p>
+            <p>"Out of sight, out of mind"</p>
+            <button onclick="document.getElementById('modalKate').style.display='block'" class="w3-button w3-light-grey w3-margin-bottom">More</button>
+          </div>
+        </div>
+
+        <!-- Lego -->
+        <div class="w3-third w3-margin-bottom">
+          <img src="/w3images/sanfran.jpg" alt="Erika" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Lego, Erika Faith L.</b></p>
+            <p class="w3-opacity">Ycai</p>
+            <p>"Be the vibe you want to attract"</p>
+            <button onclick="document.getElementById('modalErika').style.display='block'" class="w3-button w3-light-grey w3-margin-bottom">More</button>
+          </div>
+        </div>
+
+        <!-- Ordinal -->
+        <div class="w3-third w3-margin-bottom">
+          <img src="/w3images/newyork.jpg" alt="Laica" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Ordinal, Laica Janelle J.</b></p>
+            <p class="w3-opacity">Elle</p>
+            <p>"Do more of what makes you happy"</p>
+            <button onclick="document.getElementById('modalLaica').style.display='block'" class="w3-button w3-light-grey w3-margin-bottom">More</button>
+          </div>
+        </div>
+
+        <!-- Silva -->
+        <div class="w3-third w3-margin-bottom">
+          <img src="/w3images/paris.jpg" alt="Fiona" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Silva, Fiona Mae P.</b></p>
+            <p class="w3-opacity">Em-em</p>
+            <p>"I'm not late, I'm making an entrance"</p>
+            <button onclick="document.getElementById('modalFiona').style.display='block'" class="w3-button w3-light-grey w3-margin-bottom">More</button>
+          </div>
+        </div>
+
+        <!-- Somosera -->
+        <div class="w3-third w3-margin-bottom">
+          <img src="/w3images/sanfran.jpg" alt="Cindy" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Somosera, Cindy M.</b></p>
+            <p class="w3-opacity">Didi</p>
+            <p>"Expect the worst, hope for the best"</p>
+            <button onclick="document.getElementById('modalCindy').style.display='block'" class="w3-button w3-light-grey w3-margin-bottom">More</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Modals for each member -->
+  <div id="modalJanelle" class="w3-modal"><div class="w3-modal-content w3-animate-top w3-card-4"><header class="w3-container w3-blue"><span onclick="document.getElementById('modalJanelle').style.display='none'" class="w3-button w3-display-topright">×</span><h3>Janelle Arsenal</h3></header><div class="w3-container"><p><b>Achievements:</b> Top Performing Student in Events Planning</p><p><b>Experience:</b> Head Organizer, ISATU Cultural Week</p></div></div></div>
+
+  <div id="modalKate" class="w3-modal"><div class="w3-modal-content w3-animate-top w3-card-4"><header class="w3-container w3-blue"><span onclick="document.getElementById('modalKate').style.display='none'" class="w3-button w3-display-topright">×</span><h3>Kate Infante</h3></header><div class="w3-container"><p><b>Achievements:</b> Dean’s Lister for 3 Semesters</p><p><b>Experience:</b> Assistant Coordinator, Tourism Awareness Week</p></div></div></div>
+
+  <div id="modalErika" class="w3-modal"><div class="w3-modal-content w3-animate-top w3-card-4"><header class="w3-container w3-blue"><span onclick="document.getElementById('modalErika').style.display='none'" class="w3-button w3-display-topright">×</span><h3>Erika Lego</h3></header><div class="w3-container"><p><b>Achievements:</b> Best in Public Speaking</p><p><b>Experience:</b> Tour Facilitator for ISATU Day</p></div></div></div>
+
+  <div id="modalLaica" class="w3-modal"><div class="w3-modal-content w3-animate-top w3-card-4"><header class="w3-container w3-blue"><span onclick="document.getElementById('modalLaica').style.display='none'" class="w3-button w3-display-topright">×</span><h3>Laica Ordinal</h3></header><div class="w3-container"><p><b>Achievements:</b> Leadership Awardee</p><p><b>Experience:</b> Emcee and Event Host</p></div></div></div>
+
+  <div id="modalFiona" class="w3-modal"><div class="w3-modal-content w3-animate-top w3-card-4"><header class="w3-container w3-blue"><span onclick="document.getElementById('modalFiona').style.display='none'" class="w3-button w3-display-topright">×</span><h3>Fiona Silva</h3></header><div class="w3-container"><p><b>Achievements:</b> Creativity Excellence Award</p><p><b>Experience:</b> Booth Designer, ISATU Fair</p></div></div></div>
+
+  <div id="modalCindy" class="w3-modal"><div class="w3-modal-content w3-animate-top w3-card-4"><header class="w3-container w3-blue"><span onclick="document.getElementById('modalCindy').style.display='none'" class="w3-button w3-display-topright">×</span><h3>Cindy Somosera</h3></header><div class="w3-container"><p><b>Achievements:</b> Academic Excellence Awardee</p><p><b>Experience:</b> Community Organizer, Eco-Tour Walk</p></div></div></div>
+
+</div>
+ <!-- The Contact Section -->
+ <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+    <h2 class="w3-wide w3-center">CONTACT</h2>
+    <p class="w3-opacity w3-center"><i>Fan? Drop a note!</i></p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker" style="width:30px"></i> Iloilo City, Philippines<br>
+        <i class="fa fa-phone" style="width:30px"></i> Phone: 09123456789<br>
+        <i class="fa fa-envelope" style="width:30px"> </i> Email: SHEventures@gmail.com<br>
+      </div>
+      <div class="w3-col m6">
+        <form action="/action_page.php" target="_blank">
+          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+            </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+            </div>
+          </div>
+          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+          <button class="w3-button w3-pink w3-section w3-right" type="submit">SEND</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  
+<!-- End Page Content -->
+</div>
+
+<!-- Image of location/map -->
+<img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%">
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">SHEventures</a></p>
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+<!-- Scripts -->
+<script>
+  // Close modal if clicked outside
+  window.onclick = function(event) {
+    const modals = document.getElementsByClassName('w3-modal');
+    for (let modal of modals) {
+      if (event.target === modal) {
+        modal.style.display = "none";
+      }
+    }
+  }
+</script>
+
+</body>
+</html>

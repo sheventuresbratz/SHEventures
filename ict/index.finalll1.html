@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>SHEventUres</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    body {font-family: "Lato", "Times New Roman"} 
+    .mySlides {display: none}
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-pink w3-card">
+    <a href="#home" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT US</a>
+    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ENGAGEMENT</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px" id="home">
+
+  <!-- The Band Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:1200px">
+  <div class="w3-row-padding">
+    <h2 class="w3-wide">SHEventures</h2>
+    <p class="w3-opacity"><i> Six Paths, One Passion</i></p>
+    <p class="w3-justify">Welcome to our page — where six bold, curious, and purpose-driven young women come together with one vision: to redefine the future of travel and tourism! We are second-year students taking up Bachelor of Science in Tourism Management at Iloilo Science and Technology University, and this isn’t just our course — it’s our passion, our playground, and our purpose. This website is your front-row pass to who we are, what we dream of, and how we’re making it happen. From event planning and tourism campaigns to cultural showcases and community engagement, we’re not just learning tourism — we’re living it. Join us as we create, collaborate, and celebrate the art of meaningful travel. Together, we’re not just exploring the world — we’re preparing to lead it.
+    </p>
+  </div>
+   <div class="w3-third w3-margin-bottom" id="band">
+      <p>Arsenal, Janelle B.</p>
+      <img src="janelle.jpg" class="w3-round w3-margin-bottom" alt="Janelle Arsenal" style="width:50%; height:auto;">
+    </div>
+    <div class="w3-third w3-margin-bottom">
+      <p>Infante, Kate V.</p>
+      <img src="kate.jpeg" class="w3-round w3-margin-bottom" alt="Kate Infante" style="width:50%; height:auto;">
+    </div>
+    <div class="w3-third w3-margin-bottom">
+      <p>Lego, Erika Faith L.</p>
+      <img src="erika.jpeg" class="w3-round w3-margin-bottom" alt="Erika Faith Lego" style="width:50%; height:auto;">
+    </div>
+
+    <!-- Row 2: Bottom 3 Members -->
+    <div class="w3-third w3-margin-bottom">
+      <p>Ordinal, Laica Janelle J.</p>
+      <img src="laica.jpg" class="w3-round w3-margin-bottom" alt="Laica Janelle Ordinal" style="width:50%; height:auto;">
+    </div>
+    <div class="w3-third w3-margin-bottom">
+      <p>Silva, Fiona Mae P.</p>
+      <img src="fiona.jpg" class="w3-round w3-margin-bottom" alt="Fiona Mae Silva" style="width:50%; height:auto;">
+    </div>
+    <div class="w3-third w3-margin-bottom">
+      <p>Somosera, Cindy M.</p>
+      <img src="cindy.jpg" class="w3-round w3-margin-bottom" alt="Cindy Somosera" style="width:50%; height:auto;">
+    </div>
+  </div>
+</div>
+
+
+  <!-- Engagement Section -->
+  <div class="w3-pink" id="tour">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:1100px">
+      <h2 class="w3-wide w3-center">ENGAGEMENT</h2>
+      <p class="w3-opacity w3-center"><i>Get to know us!</i></p><br>
+      <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+
+        <!-- Loop for each member -->
+        <!-- Arsenal -->
+        <div class="w3-third w3-margin-bottom">
+          <div class="w3-container w3-white">
+            <p><b>Arsenal, Janelle B.</b></p>
+            <p class="w3-opacity">Nene</p>
+            <p>"Stay wild, stay curious"</p>
+            <button onclick="document.getElementById('modalJanelle').style.display='block'" class="w3-button w3-light-grey w3-margin-bottom">More</button>
+          </div>
+        </div>
+
+        <!-- Infante -->
+        <div class="w3-third w3-margin-bottom">
+          <div class="w3-container w3-white">
+            <p><b>Infante, Kate V.</b></p>
+            <p class="w3-opacity">Miray</p>
+            <p>"Out of sight, out of mind"</p>
+            <button onclick="document.getElementById('modalKate').style.display='block'" class="w3-button w3-light-grey w3-margin-bottom">More</button>
+          </div>
+        </div>
+
+        <!-- Lego -->
+        <div class="w3-third w3-margin-bottom">
+          <div class="w3-container w3-white">
+            <p><b>Lego, Erika Faith L.</b></p>
+            <p class="w3-opacity">Ycai</p>
+            <p>"Be the vibe you want to attract"</p>
+            <button onclick="document.getElementById('modalErika').style.display='block'" class="w3-button w3-light-grey w3-margin-bottom">More</button>
+          </div>
+        </div>
+
+        <!-- Ordinal -->
+        <div class="w3-third w3-margin-bottom">
+          <div class="w3-container w3-white">
+            <p><b>Ordinal, Laica Janelle J.</b></p>
+            <p class="w3-opacity">Elle</p>
+            <p>"Do more of what makes you happy"</p>
+            <button onclick="document.getElementById('modalLaica').style.display='block'" class="w3-button w3-light-grey w3-margin-bottom">More</button>
+          </div>
+        </div>
+
+        <!-- Silva -->
+        <div class="w3-third w3-margin-bottom">
+          <div class="w3-container w3-white">
+            <p><b>Silva, Fiona Mae P.</b></p>
+            <p class="w3-opacity">Em-em</p>
+            <p>"I'm not late, I'm making an entrance"</p>
+            <button onclick="document.getElementById('modalFiona').style.display='block'" class="w3-button w3-light-grey w3-margin-bottom">More</button>
+          </div>
+        </div>
+
+        <!-- Somosera -->
+        <div class="w3-third w3-margin-bottom">
+          <div class="w3-container w3-white">
+            <p><b>Somosera, Cindy M.</b></p>
+            <p class="w3-opacity">Didi</p>
+            <p>"Expect the worst, hope for the best"</p>
+            <button onclick="document.getElementById('modalCindy').style.display='block'" class="w3-button w3-light-grey w3-margin-bottom">More</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Modals for each member -->
+  <div id="modalJanelle" class="w3-modal">
+  <div class="w3-modal-content w3-animate-top w3-card-4">
+    <header class="w3-container w3-purple">
+      <span onclick="document.getElementById('modalJanelle').style.display='none'" class="w3-button w3-display-topright">×</span>
+      <h3>Janelle Arsenal</h3>
+    </header>
+  <div class="w3-container">
+    <p><label><i class="fa fa-check"></i> ELEMENTARY</label></p>
+    <input class="w3-input w3-border" type="text" placeholder="Congressional Level Journalism - 9th Place ( Feature Writing)">
+    <input class="w3-input w3-border" type="text" placeholder="Division Level Journalism - 3rd Place ( Feature Writing)">
+    <input class="w3-input w3-border" type="text" placeholder="Poem Writing Contest (District level) - 4th Place">
+    <input class="w3-input w3-border" type="text" placeholder="Participant, Girl Scout Provincial Jamboree">
+    <input class="w3-input w3-border" type="text" placeholder="Participant, Annual Fiesta Dance">
+    <input class="w3-input w3-border" type="text" placeholder="Consistent with Honor Student">
+    <p><label><i class="fa fa-check"></i> HIGH SCHOOL</label></p>
+    <input class="w3-input w3-border" type="text" placeholder="Consistent with Honor Awardee (Grade 7-10)">
+    <input class="w3-input w3-border" type="text" placeholder="Consistent with High Honor Awardee (Grade 11-12)">
+    <input class="w3-input w3-border" type="text" placeholder="Intramurals muse and volleyball player">
+    <input class="w3-input w3-border" type="text" placeholder="Supreme Student Government Auditor">
+    <input class="w3-input w3-border" type="text" placeholder="Participant, Science Camp">
+    <input class="w3-input w3-border" type="text" placeholder="Class Officer">
+    <input class="w3-input w3-border" type="text" placeholder="Co-Leader, Research/Feasibility Study Group">
+    <p><label><i class="fa fa-check"></i> COLLEGE</label></p>
+    <input class="w3-input w3-border" type="text" placeholder=" Dean's Lister ( 1st Year)">
+     <input class="w3-input w3-border" type="text" placeholder="ROTC Graduate (NSTP)">
+    <input class="w3-input w3-border" type="text" placeholder="Participant, Hiraya Turismo Fair">
+    <input class="w3-input w3-border" type="text" placeholder="Participant, Padayon Turismo Fair">
+    <input class="w3-input w3-border" type="text" placeholder="Attend Filipino Brand of Service Excellence Seminar">
+    <input class="w3-input w3-border" type="text" placeholder="Attend Pre-Departure Orientation Seminar(PDOS)">
+    <input class="w3-input w3-border" type="text" placeholder="Participation, Presentation of Sponsor and Escort ROTC">
+      <input class="w3-input w3-border" type="text" placeholder="Tour Guide, Sining Saysay 2024">
+    <input class="w3-input w3-border" type="text" placeholder="Tour Guide, In-Campus Tour">
+    <input class="w3-input w3-border" type="text" placeholder="Tour Guide, Iloilo City Tour">
+    <input class="w3-input w3-border" type="text" placeholder="Editing Skills: Minimal photo editing using Photoshop and Canva, Video editing using Capcut">
+  </p></div></div></div>
+
+  <div id="modalKate" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-purple">
+        <span onclick="document.getElementById('modalKate').style.display='none'" class="w3-button w3-display-topright">×</span>
+        <h3>Kate Infante</h3>
+      </header>
+      <div class="w3-container">
+    <p><label><i class="fa fa-check"></i> ELEMENTARY</label></p>
+    <input class="w3-input w3-border" type="text" placeholder="Honor Student (Grade 4-5) ">
+    <input class="w3-input w3-border" type="text" placeholder="Well Groomed Awardee">
+    <input class="w3-input w3-border" type="text" placeholder="Participant, Girl Scout Provincial Jamboree ">
+    <input class="w3-input w3-border" type="text" placeholder="Class Officer (Grade 3-6)">
+    <input class="w3-input w3-border" type="text" placeholder="Conduct Awardee">
+    <input class="w3-input w3-border" type="text" placeholder="Drum and Lyre Band (Grade 4-5) ">
+    <p><label><i class="fa fa-check"></i> HIGH SCHOOL</label></p>
+    <input class="w3-input w3-border" type="text" placeholder="Class Officer (Grade 7-10) ">
+    <input class="w3-input w3-border" type="text" placeholder="Participants, Science Eco Fashion">
+    <input class="w3-input w3-border" type="text" placeholder="Honor Student (Grade 9-12)">
+    <input class="w3-input w3-border" type="text" placeholder="Work Immersion at Diversion 21 Hotel">
+     <input class="w3-input w3-border" type="text" placeholder="Leader, Research/Feasibility Study">
+    <p><label><i class="fa fa-check"></i> COLLEGE</label></p>
+    <input class="w3-input w3-border" type="text" placeholder="Class Officer">
+     <input class="w3-input w3-border" type="text" placeholder="Participant, Hiraya Turismo ">
+    <input class="w3-input w3-border" type="text" placeholder="Participant, Padayon Turismo">
+    <input class="w3-input w3-border" type="text" placeholder="Attended Filipino Brand of Service Excellence Seminar">
+    <input class="w3-input w3-border" type="text" placeholder="Volunteer, CWTS Clean-up Drive Project">
+      <input class="w3-input w3-border" type="text" placeholder="Tour Guide, Sining Saysay 2024">
+    <input class="w3-input w3-border" type="text" placeholder="Tour Guide, In-Campus Tour">
+    <input class="w3-input w3-border" type="text" placeholder="Tour Guide, Iloilo City Tour">
+  </p></div></div></div>
+  <div id="modalErika" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-purple">
+        <span onclick="document.getElementById('modalErika').style.display='none'" class="w3-button w3-display-topright">×</span>
+        <h3>Erika Faith Lego</h3>
+      </header>
+      <div class="w3-container">
+    <p><label><i class="fa fa-check"></i> ELEMENTARY</label></p>
+    <input class="w3-input w3-border" type="text" placeholder="Consistent Honor Student">
+    <input class="w3-input w3-border" type="text" placeholder="Class Officer">
+    <input class="w3-input w3-border" type="text" placeholder="Class Valedictorian (Grade 6) ">
+    <input class="w3-input w3-border" type="text" placeholder="Mother Majorette, Drum and Lyre Band">
+    <input class="w3-input w3-border" type="text" placeholder="Journalism Awardee (Feature Writing and Photojournalism)">
+    <input class="w3-input w3-border" type="text" placeholder="Editorial Writer, School Publication">
+      <input class="w3-input w3-border" type="text" placeholder="Arnis Player, CDSA Meet">
+    <input class="w3-input w3-border" type="text" placeholder="English Declamation Participant">
+    <input class="w3-input w3-border" type="text" placeholder="Poster and Slogan Making Champion ">
+      <input class="w3-input w3-border" type="text" placeholder="BGB Young Leader (Grades 4–6) ">
+    <input class="w3-input w3-border" type="text" placeholder="Pagsulat ng Tula Participant">
+    <input class="w3-input w3-border" type="text" placeholder="SSG President">
+    <input class="w3-input w3-border" type="text" placeholder="Model, Fashion Glam Queens of Lambunao Organization">
+     <input class="w3-input w3-border" type="text" placeholder="Ballet Dancing Awardee">
+    <input class="w3-input w3-border" type="text" placeholder="Rondalla Member (Ukulele Player) ">
+    <input class="w3-input w3-border" type="text" placeholder="Choir Member">
+    <input class="w3-input w3-border" type="text" placeholder="Miss Foundation Day – 2nd Princess">
+    <input class="w3-input w3-border" type="text" placeholder="Editorial Writer, School Publication">
+    <p><label><i class="fa fa-check"></i> HIGH SCHOOL</label></p>
+    <input class="w3-input w3-border" type="text" placeholder="Consistent Honor Student">
+    <input class="w3-input w3-border" type="text" placeholder="Class Officer">
+    <input class="w3-input w3-border" type="text" placeholder="BGB Young Leader">
+    <input class="w3-input w3-border" type="text" placeholder="SSG Officer">
+     <input class="w3-input w3-border" type="text" placeholder="Journalism Awardee (Feature Writing and Cartooning)">
+      <input class="w3-input w3-border" type="text" placeholder="Co-leader, Research Study Group">
+    <input class="w3-input w3-border" type="text" placeholder="Member, Lambunao SHS Dance Troupe">
+    <input class="w3-input w3-border" type="text" placeholder="Work Immersionist, Tourism Department – Lambunao Government Center">
+    <p><label><i class="fa fa-check"></i> COLLEGE</label></p>
+    <input class="w3-input w3-border" type="text" placeholder="Class Officer">
+     <input class="w3-input w3-border" type="text" placeholder="Best in Costume Awardee, Hiraya Turismo Fair">
+    <input class="w3-input w3-border" type="text" placeholder="Stellar Legend Awardee, Padayon Turismo Fair">
+    <input class="w3-input w3-border" type="text" placeholder="Dancing Flight Attendant Participant">
+    <input class="w3-input w3-border" type="text" placeholder="Attended Filipino Brand of Service Excellence Seminar">
+    <input class="w3-input w3-border" type="text" placeholder="Attended Pre-Departure Orientation Seminar (PDOS)">
+    <input class="w3-input w3-border" type="text" placeholder="ROTC Graduate (NSTP)">
+    <input class="w3-input w3-border" type="text" placeholder="Participation, Presentation of Sponsor and Escort ROTC">
+      <input class="w3-input w3-border" type="text" placeholder="Tour Guide, Sining Saysay 2024">
+    <input class="w3-input w3-border" type="text" placeholder="Tour Guide, In-Campus Tour">
+    <input class="w3-input w3-border" type="text" placeholder="Tour Guide, Iloilo City Tour">
+  </p></div></div></div>
+      
+  <div id="modalLaica" class="w3-modal">
+    <div class="w3-modal-content  w3-animate-top w3-card-4">
+      <header class="w3-container w3-purple">
+        <span onclick="document.getElementById('modalLaica').style.display='none'" class="w3-button w3-display-topright">×</span>
+        <h3>Laica Janelle Ordinal</h3>
+      </header>
+      <div class="w3-container">
+    <p><label><i class="fa fa-check"></i> ELEMENTARY</label></p>
+    <input class="w3-input w3-border" type="text" placeholder="Top 2 Honor student- Grade 2">
+    <input class="w3-input w3-border" type="text" placeholder="Student Pupil Government- Grade 5 Representative">
+    <input class="w3-input w3-border" type="text" placeholder="Student Pupil Government Business Manager">
+    <input class="w3-input w3-border" type="text" placeholder="Grade 6 Class Officer - Vice President">
+    <input class="w3-input w3-border" type="text" placeholder="Side Leader, Drum & Lyre Band (3 consecutive years)">
+    <input class="w3-input w3-border" type="text" placeholder="Most Well-Behaved Awardee">
+    <input class="w3-input w3-border" type="text" placeholder="Most Punctual Awardee">
+    <input class="w3-input w3-border" type="text" placeholder="Student Conduct Awardee">
+    <input class="w3-input w3-border" type="text" placeholder="Participant, Girl Scout Provincial Jamboree">
+    <input class="w3-input w3-border" type="text" placeholder="TLE specialized in Cookery">
+     <input class="w3-input w3-border" type="text" placeholder="Member, Science and Math Club">
+     <input class="w3-input w3-border" type="text" placeholder="Participant, MTAP (Mathematics Trainers' Guild) from Grade 2 onwards">
+      <input class="w3-input w3-border" type="text" placeholder="Participant, United Nations School Event">
+    <p><label><i class="fa fa-check"></i> HIGH SCHOOL</label></p>
+    <input class="w3-input w3-border" type="text" placeholder="Business Pitch Presenter- Proposed an accessories business in class project">
+     <input class="w3-input w3-border" type="text" placeholder="Co-Leader, Research/Feasibility Study Group ">
+      <input class="w3-input w3-border" type="text" placeholder="Consistent With Honor Awardee - Grade 10 to Grade 12">
+      <input class="w3-input w3-border" type="text" placeholder="TLE specialized in Beauty Care">
+      <p><label><i class="fa fa-check"></i> COLLEGE</label></p>
+    <input class="w3-input w3-border" type="text" placeholder="Classroom Officer">
+    <input class="w3-input w3-border" type="text" placeholder="Participant, Hiraya Turismo Fair">
+    <input class="w3-input w3-border" type="text" placeholder="Participant, Padayon Turismo Fair">
+    <input class="w3-input w3-border" type="text" placeholder="Quiz Bee Contestant, 4th Place">
+    <input class="w3-input w3-border" type="text" placeholder="Attend Filipino Brand of Service Excellence Seminar">
+    <input class="w3-input w3-border" type="text" placeholder="Attend Pre-Departure Orientation Seminar(PDOS)">
+    <input class="w3-input w3-border" type="text" placeholder="Volunteer, CWTS Clean-up Drive Project">
+     <input class="w3-input w3-border" type="text" placeholder="Volunteer, Feeding Program in Brgy. Nabitasan La Paz">
+       <input class="w3-input w3-border" type="text" placeholder="Tour Guide, Sining Saysay 2024">
+    <input class="w3-input w3-border" type="text" placeholder="Tour Guide, In-Campus Tour">
+    <input class="w3-input w3-border" type="text" placeholder="Tour Guide, Iloilo City Tour">
+      <input class="w3-input w3-border" type="text" placeholder="Editing Skills: Minimal photo editing using Photoshop and Canva, Video editing using Capcut">
+  </p></div></div></div>
+  <div id="modalFiona" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-purple">
+        <span onclick="document.getElementById('modalFiona').style.display='none'" class="w3-button w3-display-topright">×</span>
+        <h3>Fiona Mae Silva</h3>
+      </header>
+      <div class="w3-container">
+    <p><label><i class="fa fa-check"></i> ELEMENTARY</label></p>
+   <input class="w3-input w3-border" type="text" placeholder="Consistent with honors">
+    <input class="w3-input w3-border" type="text" placeholder="SPG Officer">
+    <input class="w3-input w3-border" type="text" placeholder=" Classroom Officer ">
+    <input class="w3-input w3-border" type="text" placeholder="Volleyball player  - palarong  pambansa (Grade 5 & 6)">
+    <input class="w3-input w3-border" type="text" placeholder="Drum and lyre member (Grade 4)">
+    <input class="w3-input w3-border" type="text" placeholder=" Tambor:Trumpa-Martsa-Musica 2014 (Majorette)">
+    <input class="w3-input w3-border" type="text" placeholder=" Rampa sa Basura 1st runner up">
+    <input class="w3-input w3-border" type="text" placeholder="Pagsulat ng Tula Participant ">
+    <input class="w3-input w3-border" type="text" placeholder=" Girl scout ">
+    <input class="w3-input w3-border" type="text" placeholder="Search for La Paz 1 Star Model">
+    <input class="w3-input w3-border" type="text" placeholder="Buwan ng Wikang Pambansa participant ">
+    <input class="w3-input w3-border" type="text" placeholder=" United Nations (Grade 2 & 5)">
+    <p><label><i class="fa fa-check"></i> HIGH SCHOOL</label></p>
+    <input class="w3-input w3-border" type="text" placeholder="Consistent with honors ">
+    <input class="w3-input w3-border" type="text" placeholder="Classroom officer">
+    <input class="w3-input w3-border" type="text" placeholder="SSG officer">
+    <input class="w3-input w3-border" type="text" placeholder="Mr. & Mrs. Hinampang 2018">
+    <input class="w3-input w3-border" type="text" placeholder="Co-leader, Research Study Group">
+    <input class="w3-input w3-border" type="text" placeholder="Community Engagement ">
+    <input class="w3-input w3-border" type="text" placeholder="Mathlympics participant ">
+     <input class="w3-input w3-border" type="text" placeholder="Hinampang 2018 (Volleyball Player) ">
+    <p><label><i class="fa fa-check"></i> COLLEGE</label></p>
+    <input class="w3-input w3-border" type="text" placeholder=" Dean's Lister ( 1st Year)">
+     <input class="w3-input w3-border" type="text" placeholder="ROTC Graduate (NSTP)">
+    <input class="w3-input w3-border" type="text" placeholder="Participant, Hiraya Turismo Fair">
+    <input class="w3-input w3-border" type="text" placeholder="Participant, Padayon Turismo Fair">
+    <input class="w3-input w3-border" type="text" placeholder="Attend Filipino Brand of Service Excellence Seminar">
+    <input class="w3-input w3-border" type="text" placeholder="Attend Pre-Departure Orientation Seminar(PDOS)">
+    <input class="w3-input w3-border" type="text" placeholder="Participation, Presentation of Sponsor and Escort ROTC">
+     <input class="w3-input w3-border" type="text" placeholder="Tour Guide, Sining Saysay 2024">
+    <input class="w3-input w3-border" type="text" placeholder="Tour Guide, In-Campus Tour">
+    <input class="w3-input w3-border" type="text" placeholder="Tour Guide, Iloilo City Tour">
+    <input class="w3-input w3-border" type="text" placeholder="Editing Skills: Minimal photo editing using Photoshop and Canva, Video editing using Capcut">
+  </p></div></div></div>
+
+  <div id="modalCindy" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-purple">
+        <span onclick="document.getElementById('modalCindy').style.display='none'" class="w3-button w3-display-topright">×</span>
+        <h3>Cindy Somosera</h3>
+      </header>
+      <div class="w3-container">
+    <p><label><i class="fa fa-check"></i> ELEMENTARY</label></p>
+    <input class="w3-input w3-border" type="text" placeholder="Grade 5 & 6 Class Officer – Vice President">
+    <input class="w3-input w3-border" type="text" placeholder="Aflatuon Awardee">
+    <input class="w3-input w3-border" type="text" placeholder="Majorette Participant">
+    <input class="w3-input w3-border" type="text" placeholder="Member, Science and Math Club">
+    <input class="w3-input w3-border" type="text" placeholder="TLE specialized in Cookery">
+    <input class="w3-input w3-border" type="text" placeholder="Participant, Girl Scout Provincial Jamboree">
+    <input class="w3-input w3-border" type="text" placeholder="Participant, United Nations School Event">
+    <input class="w3-input w3-border" type="text" placeholder="Volunteer, Tree Planting Program ">
+    <p><label><i class="fa fa-check"></i> HIGH SCHOOL</label></p>
+    <input class="w3-input w3-border" type="text" placeholder="Participant, Business Idea Defense Presentation">
+     <input class="w3-input w3-border" type="text" placeholder=" Leader, Research/Feasibility Study Group ">
+      <input class="w3-input w3-border" type="text" placeholder="Participant, Science Quiz Bee (Grade 7)">
+      <input class="w3-input w3-border" type="text" placeholder="TLE specialized in Cookery">
+      <input class="w3-input w3-border" type="text" placeholder="With Honors Awardee – Grade 7 to Grade 10">
+     <input class="w3-input w3-border" type="text" placeholder=" With High Honors Awardee - Grade 11 to 12 ">
+      <input class="w3-input w3-border" type="text" placeholder="Volunteer, School Clean-Up Drive">
+       <input class="w3-input w3-border" type="text" placeholder=" Participant, Community Clean-Up Drive ">
+      <input class="w3-input w3-border" type="text" placeholder="Performer, School Mass Dance & Street Dance Events ">
+      <input class="w3-input w3-border" type="text" placeholder="Facilitator, Community Engagement Activity">
+     <input class="w3-input w3-border" type="text" placeholder=" Participant, Community Feeding Program ">
+      <input class="w3-input w3-border" type="text" placeholder="Participant, Community Toy and Gift-Giving">
+      <p><label><i class="fa fa-check"></i> COLLEGE</label></p>
+    <input class="w3-input w3-border" type="text" placeholder="Classroom Officer">
+    <input class="w3-input w3-border" type="text" placeholder="Participant, Hiraya Turismo Fair">
+    <input class="w3-input w3-border" type="text" placeholder="Participant, Padayon Turismo Fair">
+    <input class="w3-input w3-border" type="text" placeholder="Quiz Bee Contestant, 4th Place">
+    <input class="w3-input w3-border" type="text" placeholder="Attend Filipino Brand of Service Excellence Seminar">
+    <input class="w3-input w3-border" type="text" placeholder="Attend Pre-Departure Orientation Seminar(PDOS)">
+    <input class="w3-input w3-border" type="text" placeholder="Dean's Lister (1st Year)">
+      <input class="w3-input w3-border" type="text" placeholder="Tour Guide, Sining Saysay 2024">
+    <input class="w3-input w3-border" type="text" placeholder="Tour Guide, In-Campus Tour">
+    <input class="w3-input w3-border" type="text" placeholder="Tour Guide, Iloilo City Tour">
+     <input class="w3-input w3-border" type="text" placeholder="Editing & Design Skills:
+Basic photo editing using Adobe Photoshop
+Video editing using CapCut
+Creating visual materials such as infographics, brochures, and posters">
+  </p></div></div></div>
+
+</div>
+ <!-- The Contact Section -->
+ <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+    <h2 class="w3-wide w3-center">CONTACT</h2>
+    <p class="w3-opacity w3-center"><i>Fan? Drop a note!</i></p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker" style="width:30px"></i> Iloilo City, Philippines<br>
+        <i class="fa fa-phone" style="width:30px"></i> Phone: 09123456789<br>
+        <i class="fa fa-envelope" style="width:30px"> </i> Email: SHEventures@gmail.com<br>
+      </div>
+      <div class="w3-col m6">
+        <form action="/action_page.php" target="_blank">
+          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+            </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+            </div>
+          </div>
+          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+          <button class="w3-button w3-pink w3-section w3-right" type="submit">SEND</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  
+<!-- End Page Content -->
+</div>
+
+<!-- Image of location/map -->
+<img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%">
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">SHEventures</a></p>
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+<!-- Scripts -->
+<script>
+  // Close modal if clicked outside
+  window.onclick = function(event) {
+    const modals = document.getElementsByClassName('w3-modal');
+    for (let modal of modals) {
+      if (event.target === modal) {
+        modal.style.display = "none";
+      }
+    }
+  }
+</script>
+
+</body>
+</html>
